@@ -197,11 +197,20 @@
 			width: 100%;
 		}
 
+	#portfolio img{
+		height: 200px;
+	}
+
+
 	.image-full
 	{
 		display: block;
 		width: 100%;
 		margin: 0 0 2em 0;
+	}
+
+	#portfolio footer a{
+		text-decoration: none;
 	}
 /*	
 	.image-left
@@ -304,9 +313,6 @@
 				box-shadow: inset 0px 0px 0px 1px #242424, inset 0px -2px 1px 0px rgba(255,255,255,0.2);
 			}
 	
-		.button-big
-		{
-		}
 
 	ul.social
 	{
@@ -384,6 +390,7 @@
 		box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
 		text-align: center;
 	}
+	
 
 		.box .image-full
 		{
@@ -410,24 +417,12 @@
 		{
 			font-size: 1.25em;
 			text-decoration: none;
-			font-family: FontAwesome;
-			font-weight: normal;
-			font-style: normal;
 			-webkit-text-rendering: optimizeLegibility;
 			-moz-text-rendering: optimizeLegibility;
 			-ms-text-rendering: optimizeLegibility;
 			-o-text-rendering: optimizeLegibility;
 			text-rendering: optimizeLegibility;
-			-webkit-font-smoothing: antialiased;
-			-moz-font-smoothing: antialiased;
-			-ms-font-smoothing: antialiased;
-			-o-font-smoothing: antialiased;
-			font-smoothing: antialiased;
-			-webkit-font-feature-settings: "liga" 1, "dlig" 1;
-			-moz-font-feature-settings: "liga=1, dlig=1";
-			-ms-font-feature-settings: "liga" 1, "dlig" 1;
-			-o-font-feature-settings: "liga" 1, "dlig" 1;
-			font-feature-settings: "liga" 1, "dlig" 1;
+]
 		}
 
 /**/

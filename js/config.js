@@ -1,4 +1,3 @@
-
 window._skel_config = {
 	preset: 'standard',
 	prefix: 'css/style',
@@ -41,3 +40,5 @@ jQuery(function() {
 		});
 
 });
+
+
