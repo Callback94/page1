@@ -60,8 +60,15 @@
 	width: 300px;
 	transition: right,0.5s;
 }
+#slidbar ul {
+	margin-top: 50px;
+
+
+}
+
 
 #slidbar ul li{
+
 
 	list-style: none;
 
@@ -136,9 +143,7 @@ button{
 }
 
 
-content{
-	padding-top: 40px;
-}
+
 .warpper{
 	max-width: 1080px;
 	margin:0 auto;
@@ -148,7 +153,6 @@ content{
 	background-color: #252F3E;
 	color: #fff;
 	font-size: 0;
-	padding-top: 100px;
 }
 
 .artical-preview .img-section{
@@ -179,7 +183,7 @@ content{
 }
 
 .cardgroup{
-	background-color: #433792;
+	background-color: #433792cc;
 }
 
 .cardwarpper{
@@ -195,8 +199,6 @@ content{
 	box-sizing: border-box;
 	padding-left: 20px;
 	padding-top: 20px;
-	padding-bottom: 20px;
-
 }
 
 .card
@@ -214,18 +216,27 @@ footer{
 	background-color: #333;
 	color: #fff;
 }
-ul.share-group{
 
+footer p {
+	line-height: 20px;
 	text-align: center;
+
 }
 .share-group li{
 
 	display: inline-block;
 	padding: 30px;
-	text-align: center;
 
 }
 
+.share-group ul {
+    text-align: center;
+}
 
-
-
+.pic {
+	position: fixed;
+	top:5%;
+	left: 5%;
+	width: 188px;
+	height:188px;
+}
