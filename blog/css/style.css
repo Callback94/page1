@@ -136,7 +136,9 @@ button{
 }
 
 
-
+content{
+	padding-top: 40px;
+}
 .warpper{
 	max-width: 1080px;
 	margin:0 auto;
@@ -146,6 +148,7 @@ button{
 	background-color: #252F3E;
 	color: #fff;
 	font-size: 0;
+	padding-top: 100px;
 }
 
 .artical-preview .img-section{
@@ -176,7 +179,7 @@ button{
 }
 
 .cardgroup{
-	background-color: #433792cc;
+	background-color: #433792;
 }
 
 .cardwarpper{
@@ -192,6 +195,8 @@ button{
 	box-sizing: border-box;
 	padding-left: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
+
 }
 
 .card
@@ -209,7 +214,10 @@ footer{
 	background-color: #333;
 	color: #fff;
 }
+ul.share-group{
 
+	text-align: center;
+}
 .share-group li{
 
 	display: inline-block;
