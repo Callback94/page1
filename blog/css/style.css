@@ -1,0 +1,257 @@
+*{
+	font-size: 18px;
+	margin:0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+h3
+{
+	padding-bottom: 15px;
+}
+.card p {
+	font-size: 12px;
+}
+#topbar ul li{
+	
+	list-style: none;
+
+	display: inline-block;
+
+	float: right;
+
+	margin-left: 20px;
+
+	margin-right: 20px;
+
+	color: black;
+
+}
+
+#topbar .logo{
+	
+	float: left;
+	font-size: 25px;
+	color: #fefefe;
+	letter-spacing: 4px;
+	position: fixed;
+	top:10px;
+	left: 10px;
+}
+
+#topbar .menu a{
+
+	position: relative;
+	top: 10px;
+	right: 10px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+#slidbar{
+
+	position: fixed;
+	top:0;
+	bottom: 0;
+	right: -300px;
+	background-color: grey;
+	width: 300px;
+	transition: right,0.5s;
+}
+#slidbar ul {
+	margin-top: 50px;
+
+
+}
+
+
+#slidbar ul li{
+
+
+	list-style: none;
+
+	margin-bottom: 20px;
+
+	padding: 10px 0 10px 10px;
+}
+
+#slidbar ul li:hover{
+
+
+	background-color: #444;
+}
+
+#slidbar ul li a{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.mask{
+	display: none;
+	position:fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:rgba(0,0,0,0.3)
+}
+
+.back-to-top{
+	width: 40px;
+	height: 88px;
+	position: fixed;
+	right:30px;
+	bottom: 30px;
+	font-size: 14px;
+}
+nav{
+	height: 48px;
+}
+header{
+	height: 800px;
+	background:#444 url('../img/banner.jpg')
+}
+
+
+#banner .inner
+{
+	max-width: 400px;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	top: 160px;
+	line-height: 3;
+	color: #fff;
+}
+
+#banner p{
+	position: relative;
+	top:80px;
+}
+
+button{
+	border:none;
+	background-color: #333;
+	background-color: rgba(0,0,0,0.8);
+	color: #ccc;
+	padding: 12px;
+	font-size: 14px;
+}
+
+
+
+.warpper{
+	max-width: 1080px;
+	margin:0 auto;
+}
+
+.artical-preview{
+	background-color: #252F3E;
+	color: #fff;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.artical-preview .img-section{
+	width: 45%;
+	float: left;
+}
+
+.img-section img{
+	width: 100%;
+}
+
+.text-section{
+	width: 40%;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	letter-spacing: 1px;
+	position: relative;
+	top: 30px;
+}
+
+
+
+.text-section h2{
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 40px;
+}
+
+.cardgroup{
+	background-color: #433792;
+}
+
+.cardwarpper{
+	width: 800px;
+	height:600px;
+	margin:0 auto;
+}
+
+.card{
+	float: left;
+	width: 50%;
+	height: 200px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.card
+
+.card:first-child{background:rgba(0,0,0,0.04);}
+.card:nth-child(2){background:rgba(0,0,0,0.08);}
+.card:nth-child(3){background:rgba(0,0,0,0.12);}
+.card:nth-child(4){background:rgba(0,0,0,0.16);}
+.card:nth-child(5){background:rgba(0,0,0,0.20);}
+.card:nth-child(6){background:rgba(0,0,0,0.24);}
+
+
+
+footer{
+	background-color:#433792;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+
+footer p {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+
+}
+/*.share-group li{
+
+	display: inline-block;
+	padding: 30px;
+
+}
+
+.share-group ul {
+    text-align: center;
+}
+*/
+.pic {
+	position: fixed;
+	top:5%;
+	left: 5%;
+	width: 188px;
+	height:188px;
+}
