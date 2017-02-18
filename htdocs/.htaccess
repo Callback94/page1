@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^works.callback.top [NC] 
+RewriteRule ^(.*)$ http://callback.top/rwdpage/$1 [L,R=301]
