@@ -1,2 +1,14 @@
-RewriteCond %{HTTP_HOST} ^works.callback.top[NC] 
-RewriteRule ^(.*)$ http://www.baidu.com[L,R=301]
+<?php
+switch ($_SERVER["HTTP_HOST"])
+{
+ case "works.callback.top": header("location:rwdpage/");
+ break;
+ case "b.test.cn": header("location:b/");
+ break;
+ case "c.test.cn": header("location:c/");
+ break;
+}
+?>
+
+
+
