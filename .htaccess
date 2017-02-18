@@ -1,0 +1,7 @@
+<?php
+switch ($_SERVER["HTTP_HOST"])
+{
+ case "works.callback.top": header("location:rwdpage/");
+ break;
+}
+?>
