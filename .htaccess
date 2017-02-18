@@ -1,7 +1,2 @@
-<?php
-switch ($_SERVER["HTTP_HOST"])
-{
- case "works.callback.top": header("location:./rwdpage/");
- break;
-}
-?>
+RewriteCond %{HTTP_HOST} ^ works.callback.top[NC] 
+RewriteRule ^(.*)$ http://callback.top/rwdpage/index.html [L,R=301]
