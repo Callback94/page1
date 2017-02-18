@@ -1,0 +1,2 @@
+# 301 --- callback.top/rwdpage/index.html => works.callback.top
+RewriteRule ^callback\.top/rwdpage/index\.html$ /works.callback.top? [L,R=301]
